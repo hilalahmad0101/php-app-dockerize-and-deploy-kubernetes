@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: php-service
 spec:
+  type: NodePort
   selector:
     app: php-app
   ports:
