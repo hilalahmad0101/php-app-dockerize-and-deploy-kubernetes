@@ -16,4 +16,4 @@ spec:
         image: fffeeeeeee/php-app-mysql
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 80
